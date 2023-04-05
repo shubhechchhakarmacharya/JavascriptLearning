@@ -1,0 +1,43 @@
+ div, form{
+    background-color: powderblue;
+    padding: 20px;
+}
+#fnum, #lnum, select, input{
+    border-radius: 10px;
+    margin: 20px;
+    border-color: rgb(255, 255, 255);
+    
+}
+select{
+    padding: 5px 25px;
+}
+button{
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: white;
+    padding: 0px 40px 0px 40px;
+}
+#output{
+    padding: 0px 0 62px 13px;
+    display: flex;
+}
+
+.tag{
+    background-color: rgb(30, 30, 74);
+    color: white;
+
+    margin-inline-end: 5px;
+    padding: 3px 5px;
+    border-radius: 15px;
+}
+
+.tag-remove{
+    display: inline-block;
+    inline-size: 20px;
+    block-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: red;
+    border-radius: 50%;
+    margin-inline-start: 3px;
+}
